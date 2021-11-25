@@ -1,0 +1,197 @@
+img{
+	height: 180px;
+	width: 180px;
+}
+
+body{
+	border : 5px solid #414245;
+}
+
+h1{
+	font-size : 32px;
+	color : #7894bf;
+}
+
+h2{
+	padding-left: 10px;
+	font-size : 30px;
+	color : #7894bf;
+}
+
+.top{
+	display: grid;
+	grid-template-columns: 15% 1fr;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul{
+	list-style: none;
+}
+
+.contact{
+	/*display: flex;
+	text-align: center;
+	*/
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding-left: 150px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.event{
+	display: grid;
+	grid-template-columns: 5ch 1fr;
+}
+
+.content{
+	border-left: 1px solid #888;
+	padding-left: 1rem;
+	margin-left: 1rem;
+}
+
+.contcontent{
+	display: flex;
+}
+
+.mail{
+	margin-left: 7px;
+}
+
+.phone{
+	margin-left: 7px;
+}
+
+.address{
+	margin-left: 7px;
+}
+
+.fas{
+	font-size: 20px;
+}
+
+.idk {
+	color: #888;
+}
+
+.duration{
+	padding-top: 5px;
+}
+
+
+.new{
+	margin-bottom: 3.5rem;
+}
+
+.mainbody{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5rem;
+}
+
+.elements1{
+	display: flex;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	
+}
+
+.elements1 > div{
+	margin-left: 10px;
+	color: white;
+	background-color: #a1a7b3;
+	padding: 8px;
+	border-radius: 7px;
+}
+
+.elements2{
+	display: flex;
+	margin-left: 15px;
+	
+}
+
+.elements2 > div{
+	margin-left: 10px;
+	background-color: #a1a7b3;
+	padding: 8px;
+	border-radius: 7px;
+	color: white;
+}
+
+.projcontent{
+	margin-left: 30px;
+}
+
+.projcontent > p{
+	color : #888;
+}
+
+.coursecontent{
+	margin-left: 30px;
+}
+
+.coursecontent > p{
+	color : #888;
+}
+
+.lang2{
+	display: flex;
+	margin-top: -20px;
+}
+
+.langcontent{
+	margin-left: 30px;
+}
+
+.langcontent > p{
+	color : #888;
+}
+
+.intcontent{
+	display: flex;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	
+}
+
+.intcontent > div{
+	margin-left: 10px;
+	color: white;
+	background-color: #a1a7b3;
+	padding: 8px;
+	border-radius: 7px;
+}
+
+
+@media only screen and (max-width: 500px){
+
+	.top{
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+		"profile"
+		"details";
+	}
+
+	.contact{
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+		"mail"
+		"phone"
+		"address";
+	}
+
+	.mainbody{
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+		"column1"
+		"column2";
+	}
+
+}
