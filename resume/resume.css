@@ -7,6 +7,10 @@ body{
 	border : 5px solid #414245;
 }
 
+body *{
+	overflow: auto;
+}
+
 h1{
 	font-size : 32px;
 	color : #7894bf;
