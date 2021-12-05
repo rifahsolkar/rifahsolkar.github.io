@@ -1,0 +1,338 @@
+body{
+	background-color: #f3ebdc;
+}
+
+.weather{
+	display: grid;
+	grid-template-columns: 4% 65% 1fr;
+	margin: 2px;
+	grid-gap: 0.5rem;
+}
+
+.column1{
+	display: flex;
+	flex-direction: column;
+	background-color :#fcfaf2;
+	border-radius: 5px;
+	text-align: center;
+}
+
+.column2{
+	padding: 25px;
+	padding-top: 30px;
+	border-radius: 5px;
+	line-height: 0.5rem;
+	background-color :#fcfaf2;
+}
+
+.column3{
+	padding: 25px;
+	padding-top: 30px;
+	border-radius: 5px;
+	line-height: 0.5rem;
+	background-color : #f0f2f5;
+}
+
+.diff{
+	color: #888;
+}
+
+h2{
+	font-size: 20px;
+}
+
+.pr{
+	margin-top: 40px;
+}
+
+.pr1{
+	margin-top: 100px;
+	color: #bf1d50;
+	border-left: 1px solid #bf1d50;
+	border-width: 5px;
+	height: 30px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+.back{
+	margin-top: 370px;
+	padding-bottom: 5px;
+}
+
+.boxContainer{
+	position : relative;
+	width: 200px;
+	height: 27px;
+	/* border : 1px solid black; */
+	padding : 8px 15px;
+	border-radius: 50px;
+	background-color:#e8e9eb;
+	margin-left: 500px;
+}
+
+.elementsContainer{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.search{
+	border:none;
+	height: 100%;
+	width: 100%;
+	padding : 0px 5px;
+	border-radius: 50px;
+	font-size: 15px;
+	font-family: "Nunito";
+	color : palevioletred;
+	font-weight: 500;
+	background-color:#e8e9eb;
+}
+
+.search:focus{
+	outline: none;
+}
+
+.fa-search{
+	font-size: 25;
+	color:#888;
+}
+
+.top{
+	display: flex;
+}
+
+.day > h2{
+	font-size: 15px;
+	padding-top: 6px;
+	margin-left: 15px;
+}
+
+.day{
+	display: flex;
+}
+
+.day > p{
+	padding-top: 2px;
+}
+
+.temp{
+	display: flex;
+	margin-left: 730px;
+}
+
+.temp > p{
+	margin-left: 15px;
+	border : 1px solid #888;
+	padding : 3px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 20px;
+}
+
+.middle{
+	display: flex;
+}
+
+.cel{
+	color: #fcfaf2;
+	background-color:#bf1d50 ;
+	border : none;
+}
+
+.weekday > h3{
+	font-size: 15px;
+}
+
+.diff2{
+	font-size: 14px;
+	color: #888;
+	line-height: none;
+}
+
+.new2{
+	color: #bf1d50;
+}
+
+.idk{
+	font-size: 12px;
+	color: #515452;
+}
+
+.idk > div{
+	padding-top: 8px;
+}
+
+.individual{
+	margin-top: -10px;
+	display: flex;
+}
+
+.climate{
+	width : 200px;
+	height: 110px;
+	display: grid;
+	margin-bottom: 25px;
+	grid-template-columns: 70% 1fr;
+}
+
+.weekclim{
+	padding-top: 15px;
+	font-size: 25px;
+}
+
+.weekclim > p{
+	padding-top: 15px;
+}
+
+.climate{
+	border : 1px solid #afb3b0;
+	border-radius: 15px;
+	margin-right: 25px;
+}
+
+.weekday{
+	padding-left: 15px;
+	
+}
+
+.hello{
+	border : 1px solid #bf1d50;
+}
+
+.highlight > h3{
+	font-size: 15px;
+}
+
+.icon{
+	border : 1px solid #fcfaf2;;
+	padding : 5px ;
+	margin-top: 9px;
+	padding-top: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	font-size: 25px;
+	border-radius: 30px;
+	background-color: #e3a644;
+	color : #fcfaf2;
+}
+
+.general{
+	display: flex;
+	margin-right: 13px;
+}
+
+.am{
+	margin-left: 13px;
+}
+.am1{
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.am2{
+	font-size:13px;
+	color : #888;
+}
+
+.highlight{
+	border : 1px solid white;
+	border-radius: 10px;
+	width : 250px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	background-color: #f0f1f2;
+}
+
+.general1{
+	display: flex;
+}
+
+.highlightsec{
+	display : flex;
+}
+
+.fc{
+	font-size: 15px;
+}
+
+.air1{
+	display: flex;
+	border : 1px solid #e3a644;
+	width: fit-content;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 15px;
+	background-color: #e3a644;
+}
+
+.us{
+	
+	padding-right: 10px;
+}
+
+.moderate{
+	border-left : 1px solid black;
+	margin-bottom: 35px;
+	margin-top: 15px;
+	padding-left: 10px;
+}
+
+.air{
+	border : 1px solid white;
+	border-radius: 10px;
+	width : 250px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	background-color: #f0f1f2;
+}
+
+.bi-bell{
+	padding-left: 20px;
+}
+
+.prof{
+	display: flex;
+	margin-left : 170px;
+}
+
+.prof>p{
+	margin-left : 15px;
+	margin-right: 15px;
+	margin-top:3px;
+}
+
+.top3{
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.column3>img{
+	margin-left: 15px;
+}
+
+.subscribe>h3{
+	color: #bf1d50;
+}
+
+.subscribe{
+	display: flex;
+	border : 1px solid  #fcfaf2;
+	border-radius: 10px;
+	margin-top: 20px;
+	background-color: #fcfaf2;
+	width: 350px;
+
+}
+
+.subscribe> i{
+	margin-top: 10px;
+	margin-right: 20px;
+}
+
+.last{
+	padding-top: 15px;
+}
