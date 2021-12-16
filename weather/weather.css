@@ -336,3 +336,14 @@ h2{
 .last{
 	padding-top: 15px;
 }
+
+@media only screen and (max-width: 500px){
+
+	.top{
+		grid-template-columns: 1fr;
+		grid-template-areas: 
+		"heading"
+		"boxContainer";
+	}
+
+}
