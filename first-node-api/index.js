@@ -2,13 +2,15 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const mongoose = require('mongoose')
 const app = express()
-const port = 3000;
+const port = 9000;
+const cors = require('cors')
 
 const Post = require('./src/models/post');
 const post = require('./src/models/post');
 
 const db = mongoose.connect('mongodb://localhost:27017/first-node-api')
 
+app.use(cors())
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended : false}))
 
